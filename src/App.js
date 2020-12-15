@@ -17,7 +17,7 @@ const App = () => {
       <Menu />
       <main>
         <Container>
-          <Route path='/react-bootstrap-starter' component={HomePage} exact />
+          <Route path='/' component={HomePage} exact />
           <Route path='/about' component={AboutPage} />
         </Container>
       </main>
