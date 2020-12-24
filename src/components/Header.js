@@ -19,7 +19,7 @@ const Header = () => {
           <div className='divider-custom-line'></div>
         </div>
         <p className='pre-wrap masthead-subheading font-weight-light mb-0'>
-          Graphic Artist - Web Designer - Illustrator
+          Wesite Design and Development Technologies, Solutions and Consultations
         </p>
       </Container>
     </header>
