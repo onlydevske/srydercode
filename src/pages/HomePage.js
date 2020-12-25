@@ -6,7 +6,7 @@ import Contact from '../components/Contact'
 const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header titlePage='srydercode'/>
       <Portfolio />
       <About />
       <Contact />

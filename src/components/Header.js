@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap'
 import avatar from '../avataaars.svg'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className='masthead bg-primary text-white text-center'>
       <Container className='container d-flex align-items-center flex-column'>
@@ -10,7 +10,7 @@ const Header = () => {
           src={avatar}
           alt=''
         />
-        <h1 className='masthead-heading mb-0'>srydercode</h1>
+        <h1 className='masthead-heading mb-0'>{props.titlePage}</h1>
         <div className='divider-custom divider-light'>
           <div className='divider-custom-line'></div>
           <div className='divider-custom-icon'>

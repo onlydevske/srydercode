@@ -1,7 +1,9 @@
+import Header from '../components/Header'
+
 const Services = () => {
   return (
     <>
-      <h1>Services</h1>
+      <Header titlePage='Services' />
     </>
   )
 }
